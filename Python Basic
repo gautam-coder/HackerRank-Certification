@@ -1,0 +1,21 @@
+#Swap words and Replace
+#example:- "rUns dOg"
+#output:- DoG RuNS
+#PYTHON 3
+
+
+#used to take input
+sentence=input()
+l=[]#initialization of list
+
+#Main function in Hackerrank to swapcase 
+def swapcase(sentence):
+    a=sentence.swapcase().split(' ')#to swap the string and then split it by space to get in a list
+    a.reverse()#reverse the list 
+    return (' '.join(a))#join the list to the space
+    
+#Used to Print the Value
+a=swapcase(sentence)
+print(a)
+
+        
