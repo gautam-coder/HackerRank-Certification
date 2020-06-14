@@ -18,4 +18,3 @@ def swapcase(sentence):
 a=swapcase(sentence)
 print(a)
 
-        
